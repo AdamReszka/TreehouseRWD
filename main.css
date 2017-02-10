@@ -789,4 +789,11 @@ body {
 .d-right {
   margin-left: 3rem; }
 
+@media screen and (max-width: 1440px) {
+  .mini-logo {
+    margin: auto 0 auto 5rem; }
+
+  .main-container nav.main-nav ul {
+    margin: 0 5rem 0 0; } }
+
 /*# sourceMappingURL=main.css.map */

@@ -837,7 +837,12 @@ body {
 	margin-left: 3rem;
 }
 
-// .data-row.cent:hover p:hover {
-// 	cursor: pointer;
-// 	color: red;
-// }
+
+@media screen and (max-width: 1440px) {
+	.mini-logo {
+		margin: auto 0 auto 5rem;
+	}
+	.main-container nav.main-nav ul {
+		margin: 0 5rem 0 0;
+	}
+}
