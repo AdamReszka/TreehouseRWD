@@ -53,6 +53,7 @@ body {
 				height: 11.5rem;
 				color: $mfcolor;
 				font-size: 1.4rem;
+				font-weight: 600;
 				text-transform: uppercase;
 				a {
 					display: flex;
@@ -844,5 +845,13 @@ body {
 	}
 	.main-container nav.main-nav ul {
 		margin: 0 5rem 0 0;
+	}
+	.latest-pro {
+		background-size: 100%;
+	}
+}
+@media screen and (max-width: 1320px) {
+	.latest-pro {
+		background-size: 90%;
 	}
 }

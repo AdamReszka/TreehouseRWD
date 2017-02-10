@@ -100,6 +100,7 @@ body {
         height: 11.5rem;
         color: #777777;
         font-size: 1.4rem;
+        font-weight: 600;
         text-transform: uppercase; }
         .main-container nav.main-nav ul li a {
           display: flex;
@@ -794,6 +795,12 @@ body {
     margin: auto 0 auto 5rem; }
 
   .main-container nav.main-nav ul {
-    margin: 0 5rem 0 0; } }
+    margin: 0 5rem 0 0; }
+
+  .latest-pro {
+    background-size: 100%; } }
+@media screen and (max-width: 1320px) {
+  .latest-pro {
+    background-size: 90%; } }
 
 /*# sourceMappingURL=main.css.map */
