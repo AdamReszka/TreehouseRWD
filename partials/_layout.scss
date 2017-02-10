@@ -862,32 +862,9 @@ body {
 	.latest-pro .pro-desc {
 		margin-left: 14%;
 	}
-	.our-awe .awesome-first .left-speak .ls-quoute {
-		font-size: 1.8rem;
-	}
-	.our-awe .awesome-second .right-speak .rs-quoute {
-		font-size: 1.8rem;
-	}
-	.our-awe .awesome-first .left-speak .ls-person {
-		font-size: 1.4rem;
-	}
-	.our-awe .awesome-second .right-speak .rs-person {
-		font-size: 1.4rem;
-	}
+	
 }
 @media screen and (max-width: 1200px) {
-	.main-container nav.main-nav {
-		height: 8rem;
-		ul {
-			height: 8rem;
-			li {
-				height: 8rem;
-				a {
-					height: 8rem;
-				}
-			}
-		}
-	}
 	.main-container .paralax {
 		background-image: url('images/banner_paralax1200.png');
 	}
