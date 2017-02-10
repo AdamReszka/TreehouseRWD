@@ -873,3 +873,45 @@ body {
 		font-size: 1.4rem;
 	}
 }
+@media screen and (max-width: 1200px) {
+	.main-container nav.main-nav {
+		height: 8rem;
+		ul {
+			height: 8rem;
+			li {
+				height: 8rem;
+				a {
+					height: 8rem;
+				}
+			}
+		}
+	}
+	.main-container .paralax {
+		background-image: url('images/banner_paralax1200.png');
+	}
+	.title-cds {
+		height: 50rem;
+		.main-title {
+			margin-top: 9rem;
+			font-weight: 500;
+		}
+	}
+	.prof-serv {
+		height: 50rem;
+		.prof-title {
+			margin-top: 7.4rem;
+		}
+	}
+	.culture-val {
+		height: 49rem;
+		.cult-header {
+			margin: 3rem 0 0 0;
+		}
+	}
+	.latest-pro {
+		height: 78rem;
+		.pro-title {
+			margin: 8rem 0 1rem 0;
+		}
+	}
+}
