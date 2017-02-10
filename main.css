@@ -798,9 +798,27 @@ body {
     margin: 0 5rem 0 0; }
 
   .latest-pro {
-    background-size: 100%; } }
+    background-size: 100%; }
+
+  .main-footer .copyrights {
+    left: 5rem; } }
 @media screen and (max-width: 1320px) {
   .latest-pro {
-    background-size: 90%; } }
+    background-size: 85%; }
+
+  .latest-pro .pro-desc {
+    margin-left: 17%; }
+
+  .our-awe .awesome-first .left-speak .ls-quoute {
+    font-size: 1.8rem; }
+
+  .our-awe .awesome-second .right-speak .rs-quoute {
+    font-size: 1.8rem; }
+
+  .our-awe .awesome-first .left-speak .ls-person {
+    font-size: 1.4rem; }
+
+  .our-awe .awesome-second .right-speak .rs-person {
+    font-size: 1.4rem; } }
 
 /*# sourceMappingURL=main.css.map */
