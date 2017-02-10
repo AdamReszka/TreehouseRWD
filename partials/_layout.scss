@@ -3,6 +3,7 @@ html {
   	font-weight: normal;
 	font-size: 62.5%;
 	position: relative;
+	width: 100%;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 	// font-size: 4rem;
 	background: #fff;
 	position: relative;
+	width: 100%;
 }
 
 .main-container {
@@ -451,7 +453,7 @@ body {
 	.cult-desc {
 		display: flex;
 		flex-direction: row;
-		padding: 0 15rem;
+		padding: 0;
 		.c-content {
 			display: flex;
 			flex-direction: column;
@@ -858,7 +860,7 @@ body {
 		background-size: 85%;
 	}
 	.latest-pro .pro-desc {
-		margin-left: 17%;
+		margin-left: 14%;
 	}
 	.our-awe .awesome-first .left-speak .ls-quoute {
 		font-size: 1.8rem;
@@ -913,5 +915,11 @@ body {
 		.pro-title {
 			margin: 8rem 0 1rem 0;
 		}
+	}
+	.just-relax .just-gear {
+		width: 20%;
+	}
+	.just-relax .just-baner {
+		width: 80%;
 	}
 }
