@@ -149,9 +149,9 @@ body {
   padding: 0;
   background-image: url("images/banner_paralax.png");
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .title-cds .main-title {
     color: #fff;
     text-transform: uppercase;
@@ -879,7 +879,7 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    z-index: 60;
+    z-index: 100;
     right: 3rem;
     height: 11.5rem; }
 
@@ -887,6 +887,9 @@ body {
     display: block !important; }
 
   .mini-txt {
-    font-size: 2.4rem; } }
+    font-size: 2.4rem; }
+
+  .title-cds {
+    background-attachment: scroll; } }
 
 /*# sourceMappingURL=main.css.map */

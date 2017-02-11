@@ -113,9 +113,9 @@ body {
 	@include zero;
 		background-image: url("images/banner_paralax.png");
 		background-attachment: fixed;
-    	background-position: bottom;
+    	background-position: 0 0;
     	background-repeat: no-repeat;
-    	background-size: contain;
+    	background-size: cover;
 	.main-title {
 		color: #fff;
 		text-transform: uppercase;
@@ -949,7 +949,7 @@ body {
 		display: block;
 		@include zero;
 		position: absolute;
-		z-index: 60;
+		z-index: 100;
 		right: 3rem;
 		height: 11.5rem;
 	}
@@ -958,5 +958,8 @@ body {
 	}
 	.mini-txt {
 		font-size: 2.4rem;
+	}
+	.title-cds {
+		background-attachment: scroll;
 	}
 }
