@@ -126,6 +126,9 @@ body {
 			}
 		}
 }
+.burger-nav {
+	display: none;
+}
 .mini-logo {
 			left: 0;
 			top: 0;
@@ -898,5 +901,18 @@ body {
 	}
 	.just-relax .just-baner {
 		width: 80%;
+	}
+}
+@media screen and (orientation: portrait) {
+	.main-container nav.main-nav {
+		display: none;
+	}
+	.burger-nav {
+		display: block;
+		@include zero;
+		height: 11.5rem;
+		width: 20rem;
+		float: right;
+		background-color: #000;
 	}
 }
