@@ -844,7 +844,7 @@ body {
   .just-relax .just-baner {
     width: 80%; } }
 @media screen and (orientation: portrait) {
-  .main-container nav.main-nav {
+  .main-container nav.main-nav ul {
     display: none; }
 
   .burger-nav {
