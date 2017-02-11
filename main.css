@@ -177,11 +177,11 @@ body {
   .burger-nav .burger-link {
     margin: 0;
     padding: 0;
-    height: 10.25rem;
+    height: 9.25rem;
     display: block;
-    padding-top: 1.25rem; }
+    padding-top: 1.75rem; }
     .burger-nav .burger-link .burger-img {
-      height: 9rem;
+      height: 8rem;
       display: block; }
 
 .mini-logo {
