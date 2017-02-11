@@ -23,12 +23,12 @@ body {
 	padding: 0;
 	position: relative;
 	.paralax {
-		@include zero;
-		background-image: url("images/banner_paralax.png");
-		background-attachment: fixed;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
+		// @include zero;
+		// background-image: url("images/banner_paralax.png");
+		// background-attachment: fixed;
+  //   	background-position: center;
+  //   	background-repeat: no-repeat;
+  //   	background-size: cover;
 	}
 	nav.main-nav {
 		position: relative;
@@ -106,6 +106,12 @@ body {
 	width: 100%;
 	height: 60rem;
 	@include dircol;
+	@include zero;
+		background-image: url("images/banner_paralax.png");
+		background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 	.main-title {
 		color: #fff;
 		text-transform: uppercase;
