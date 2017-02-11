@@ -884,6 +884,9 @@ body {
     height: 11.5rem; }
 
   .open {
-    display: block !important; } }
+    display: block !important; }
+
+  .mini-txt {
+    font-size: 2.4rem; } }
 
 /*# sourceMappingURL=main.css.map */
