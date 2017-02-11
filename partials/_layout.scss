@@ -81,10 +81,10 @@ body {
 			height: 11.5rem;
 			box-sizing: border-box;
 			background-color: #000;
-			border-bottom: 1px solid $mfcolor;
+			border-top: 1px solid $mfcolor;
 			color: #fff;
-			padding-top: 1rem;
-			font-size: 3rem;
+			padding-top: 3rem;
+			font-size: 4rem;
 			text-align: center;
 			text-transform: uppercase;
 
@@ -113,7 +113,7 @@ body {
 	@include zero;
 		background-image: url("images/banner_paralax.png");
 		background-attachment: fixed;
-    	background-position: center;
+    	background-position: bottom;
     	background-repeat: no-repeat;
     	background-size: contain;
 	.main-title {
