@@ -6,6 +6,11 @@ function initAll() {
 	});
 	$("#hamburger").on('click', function(event){
 		event.preventDefault();
-		alert('udao sie');
+		if ($(this).closest('.main-container').find('#burger-ul').hasClass('open')) {
+			$(this).closest('.main-container').find('#burger-ul').removeClass('open').slideUp();
+		} else {
+			$(this).closest('.main-container').find('#burger-ul').addClass('open').slideDown();
+		}
+		
 	});
 }
