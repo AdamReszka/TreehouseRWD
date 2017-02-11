@@ -171,7 +171,14 @@ body {
       text-shadow: none; }
 
 .burger-nav {
-  display: none; }
+  display: none;
+  height: 11.5rem; }
+  .burger-nav .burger-link {
+    margin: 0;
+    padding: 0;
+    height: 11.5rem; }
+    .burger-nav .burger-link .burger-img {
+      height: 11.5rem; }
 
 .mini-logo {
   left: 0;
