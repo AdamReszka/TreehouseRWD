@@ -129,11 +129,15 @@ body {
 .burger-nav {
 	display: none;
 	height: 11.5rem;
+	padding: 3rem;
 	.burger-link {
 		@include zero;
-		height: 11.5rem;
+		height: 10.25rem;
+		display: block;
+		padding-top: 1.25rem;
 		.burger-img {
-			height: 11.5rem;
+			height: 9rem;
+			display: block;
 		}
 	}
 }
@@ -918,9 +922,9 @@ body {
 	.burger-nav {
 		display: block;
 		@include zero;
+		position: absolute;
+		z-index: 60;
+		right: 3rem;
 		height: 11.5rem;
-		width: 20rem;
-		float: right;
-		background-color: #000;
 	}
 }

@@ -172,13 +172,17 @@ body {
 
 .burger-nav {
   display: none;
-  height: 11.5rem; }
+  height: 11.5rem;
+  padding: 3rem; }
   .burger-nav .burger-link {
     margin: 0;
     padding: 0;
-    height: 11.5rem; }
+    height: 10.25rem;
+    display: block;
+    padding-top: 1.25rem; }
     .burger-nav .burger-link .burger-img {
-      height: 11.5rem; }
+      height: 9rem;
+      display: block; }
 
 .mini-logo {
   left: 0;
@@ -858,9 +862,9 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    height: 11.5rem;
-    width: 20rem;
-    float: right;
-    background-color: #000; } }
+    position: absolute;
+    z-index: 60;
+    right: 3rem;
+    height: 11.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
