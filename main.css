@@ -916,7 +916,7 @@ body {
   .our-awe .awesome-second .right-speak {
     position: relative;
     top: 23rem; } }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 380px) {
   .mini-txt {
     font-size: 3rem; }
 
