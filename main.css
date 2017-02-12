@@ -916,7 +916,7 @@ body {
   .our-awe .awesome-second .right-speak {
     position: relative;
     top: 23rem; } }
-@media screen and (orientation: portrait), screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .mini-txt {
     font-size: 3rem; }
 
@@ -925,7 +925,7 @@ body {
     height: 4rem; }
 
   .title-cds {
-    height: 90rem; }
+    height: 100rem; }
 
   .title-cds .main-title {
     font-size: 8rem;
