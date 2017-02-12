@@ -870,7 +870,7 @@ body {
 
   .just-relax .just-baner {
     width: 80%; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), screen and (max-width: 900px) {
   .main-container nav.main-nav ul {
     display: none; }
 
