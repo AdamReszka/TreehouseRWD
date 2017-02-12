@@ -200,6 +200,12 @@ body {
       height: 7rem;
       display: block; }
 
+#hamburger {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none; }
+
 .mini-logo {
   left: 0;
   top: 0;
