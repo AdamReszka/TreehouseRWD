@@ -870,6 +870,23 @@ body {
 
   .just-relax .just-baner {
     width: 80%; } }
+@media screen and (max-width: 1000px) {
+  .our-awe {
+    min-height: 120rem; }
+    .our-awe .awesome-first {
+      flex-direction: column; }
+      .our-awe .awesome-first .left-photo {
+        width: 22.1rem;
+        height: 22.1rem;
+        margin-left: auto;
+        margin-right: auto; }
+    .our-awe .awesome-second {
+      flex-direction: column; }
+      .our-awe .awesome-second .right-photo {
+        width: 22.1rem;
+        height: 22.1rem;
+        margin-left: auto;
+        margin-right: auto; } }
 @media screen and (orientation: portrait), screen and (max-width: 900px) {
   .main-container nav.main-nav ul {
     display: none; }
