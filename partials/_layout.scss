@@ -601,6 +601,7 @@ body {
 	.awesome-second {
 		display: flex;
 		flex-direction: row;
+		position: relative;
 		margin-top: 3.4rem;
 		margin-right: 1rem;
 		.right-photo {
@@ -985,4 +986,16 @@ body {
 	.title-cds {
 		background-attachment: scroll;
 	}
+    .our-awe .awesome-second {
+    	.right-photo {
+    		position: relative;
+    		top: -21.5rem;
+    	}
+    	.right-speak {
+    		position: relative;
+    		top: 23rem;
+    	}
+
+    	
+    }
 }
