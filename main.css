@@ -200,12 +200,6 @@ body {
       height: 7rem;
       display: block; }
 
-#hamburger {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  outline: none; }
-
 .mini-logo {
   left: 0;
   top: 0;
@@ -922,7 +916,7 @@ body {
   .our-awe .awesome-second .right-speak {
     position: relative;
     top: 23rem; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .mini-txt {
     font-size: 3rem; }
 
