@@ -218,7 +218,7 @@ body {
 
 .prof-serv {
   width: 100%;
-  height: 53.5rem;
+  min-height: 53.5rem;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -871,7 +871,7 @@ body {
 
   .just-relax .just-baner {
     width: 80%; } }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   .our-awe {
     min-height: 120rem; }
     .our-awe .awesome-first {
@@ -887,7 +887,10 @@ body {
         width: 22.1rem;
         height: 22.1rem;
         margin-left: auto;
-        margin-right: auto; } }
+        margin-right: auto; }
+
+  .prof-serv .prof-atrib {
+    width: 90rem; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav ul {
     display: none; }
@@ -916,7 +919,23 @@ body {
     top: -21.5rem; }
   .our-awe .awesome-second .right-speak {
     position: relative;
-    top: 23rem; } }
+    top: 23rem; }
+
+  .prof-serv {
+    height: 90rem; }
+    .prof-serv .prof-atrib {
+      flex-direction: column;
+      height: 80rem; }
+      .prof-serv .prof-atrib .atrib-item {
+        width: 60%;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto; }
+        .prof-serv .prof-atrib .atrib-item .item-title {
+          font-size: 2.8rem; }
+        .prof-serv .prof-atrib .atrib-item .prof-heart {
+          width: 10.8rem;
+          height: 9.6rem; } }
 @media screen and (max-width: 480px) {
   .mini-txt {
     font-size: 3rem; }
