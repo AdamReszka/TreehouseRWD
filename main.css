@@ -890,7 +890,18 @@ body {
         margin-right: auto; }
 
   .prof-serv .prof-atrib {
-    width: 90rem; } }
+    width: 90rem; }
+
+  .latest-pro {
+    height: 100rem;
+    background-position: right bottom;
+    background-size: 120%; }
+
+  .just-relax .just-gear {
+    width: 0; }
+
+  .just-relax .just-baner {
+    width: 100%; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav {
     height: 9rem; }
