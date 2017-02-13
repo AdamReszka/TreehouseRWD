@@ -842,7 +842,7 @@ body {
   .latest-pro .pro-desc {
     margin-left: 14%; } }
 @media screen and (max-width: 1200px) {
-  .main-container .paralax {
+  .main-container {
     background-image: url("images/banner_paralax1200.png"); }
 
   .title-cds {
