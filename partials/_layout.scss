@@ -969,9 +969,9 @@ body {
 			margin-right: auto;
 			}
 		}
+	}
 }
-}
-@media screen and (orientation: portrait), screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 	.main-container nav.main-nav ul{
 		display: none;
 	}
@@ -991,6 +991,7 @@ body {
 	}
 	.title-cds {
 		background-attachment: scroll;
+		height: 60rem;
 	}
     .our-awe .awesome-second {
     	.right-photo {
@@ -1005,7 +1006,7 @@ body {
     	
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 	.mini-txt {
 		font-size: 3rem;
 	}
