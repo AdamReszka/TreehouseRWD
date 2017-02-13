@@ -888,7 +888,7 @@ body {
         height: 22.1rem;
         margin-left: auto;
         margin-right: auto; } }
-@media screen and (orientation: portrait), screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .main-container nav.main-nav ul {
     display: none; }
 
@@ -908,7 +908,8 @@ body {
     font-size: 2.4rem; }
 
   .title-cds {
-    background-attachment: scroll; }
+    background-attachment: scroll;
+    height: 50rem; }
 
   .our-awe .awesome-second .right-photo {
     position: relative;
@@ -916,36 +917,38 @@ body {
   .our-awe .awesome-second .right-speak {
     position: relative;
     top: 23rem; } }
-@media screen and (max-width: 380px) {
-  .mini-txt {
-    font-size: 3rem; }
 
-  .mini-img {
-    width: 4rem;
-    height: 4rem; }
+   
+  @media screen and (max-width: 480px) and (orientation: portrait) {
+    .mini-txt {
+      font-size: 3rem; }
 
-  .title-cds {
-    height: 100rem; }
+    .mini-img {
+      width: 4rem;
+      height: 4rem; }
 
-  .title-cds .main-title {
-    font-size: 8rem;
-    margin-top: 18rem; }
+    .title-cds {
+      height: 100rem; }
 
-  .title-cds .main-sub-title {
-    margin-top: 13rem;
-    font-size: 4rem; }
+    .title-cds .main-title {
+      font-size: 8rem;
+      margin-top: 18rem; }
 
-  .title-cds .title-button {
-    width: 40rem;
-    height: 12rem;
-    margin-top: 12rem;
-    font-size: 3rem;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    .title-cds .main-sub-title {
+      margin-top: 13rem;
+      font-size: 4rem; }
 
-  #burger-ul li {
-    height: 11.5rem;
-    font-size: 4rem;
-    padding-top: 3.8rem; } }
+    .title-cds .title-button {
+      width: 40rem;
+      height: 12rem;
+      margin-top: 12rem;
+      font-size: 3rem;
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+    #burger-ul li {
+      height: 11.5rem;
+      font-size: 4rem;
+      padding-top: 3.8rem; } }
 
 /*# sourceMappingURL=main.css.map */
