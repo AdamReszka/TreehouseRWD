@@ -888,7 +888,7 @@ body {
         height: 22.1rem;
         margin-left: auto;
         margin-right: auto; } }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (orientation: portrait) {
   .main-container nav.main-nav ul {
     display: none; }
 
