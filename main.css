@@ -318,7 +318,7 @@ body {
       margin-top: 2.9rem;
       display: flex;
       flex-wrap: wrap;
-      width: 54rem; }
+      max-width: 54rem; }
     .just-relax .just-baner .jb-check-box {
       padding: 0;
       margin-top: 2rem; }
@@ -926,6 +926,9 @@ body {
 
   .open {
     display: block !important; }
+
+  .just-relax .just-baner {
+    padding: 7%; }
 
   .title-cds {
     background-attachment: scroll;
