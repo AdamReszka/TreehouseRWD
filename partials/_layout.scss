@@ -155,14 +155,13 @@ body {
 .burger-nav {
 	display: none;
 	height: 11.5rem;
-	padding: 3rem;
+	padding: 2rem;
 	.burger-link {
 		@include zero;
-		height: 9.25rem;
+		height: 5rem;
 		display: block;
-		padding-top: 2.25rem;
 		.burger-img {
-			height: 6rem;
+			height: 5rem;
 			display: block;
 		}
 	}
@@ -988,7 +987,7 @@ body {
 }
 @media screen and (max-width: 900px) {
 	.main-container nav.main-nav {
-		height: 9rem;
+		height: 7rem;
 	}
 	.main-container nav.main-nav ul{
 		display: none;
@@ -999,7 +998,7 @@ body {
 		position: absolute;
 		z-index: 100;
 		right: 3rem;
-		top: 1.5rem;
+		top: 1rem;
 		height: 9rem;
 	}
 	#hamburger {
