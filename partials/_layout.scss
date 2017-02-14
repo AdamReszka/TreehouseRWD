@@ -155,7 +155,7 @@ body {
 .burger-nav {
 	display: none;
 	height: 11.5rem;
-	padding: 2rem;
+	padding: 1rem;
 	.burger-link {
 		@include zero;
 		height: 5rem;
@@ -998,7 +998,7 @@ body {
 		position: absolute;
 		z-index: 100;
 		right: 3rem;
-		top: 1rem;
+		top: 0.5rem;
 		height: 5rem;
 	}
 	#hamburger {
