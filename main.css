@@ -1055,6 +1055,9 @@ body {
   #burger-ul li {
     height: 11.5rem;
     font-size: 4rem;
-    padding-top: 3.8rem; } }
+    padding-top: 3.8rem; }
+
+  .contact-data {
+    background-color: red; } }
 
 /*# sourceMappingURL=main.css.map */
