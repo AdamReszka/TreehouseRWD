@@ -616,6 +616,7 @@ body {
 		}
 		.limg {
 			background-image: url('images/leftphoto-speak.png');
+			background-repeat: no-repeat;
 		}
 		
 	}
@@ -974,6 +975,9 @@ body {
 			margin-left: auto;
 			margin-right: auto;
 		}
+		.left-speak {
+			background-color: $whiteless;
+		}
 	}
 		.awesome-second {
 			flex-direction: column;
@@ -982,6 +986,9 @@ body {
 			height: 22.1rem;
 			margin-left: auto;
 			margin-right: auto;
+			}
+			.right-speak {
+				background-color: $whiteless;
 			}
 		}
 	}
@@ -1026,6 +1033,19 @@ body {
 			}
 		}
 	}
+	.our-awe .awesome-second {
+    	align-items: center;
+
+    	.right-photo {
+    		position: relative;
+    		top: -21.5rem;
+    	}
+    	.right-speak {
+    		position: relative;
+    		top: 23rem;
+    		width: 90%
+    	} 	
+    }
 
 }
 @media screen and (max-width: 900px) {
@@ -1071,19 +1091,7 @@ body {
 			}
 		}
 	}
-    .our-awe .awesome-second {
-    	align-items: center;
-
-    	.right-photo {
-    		position: relative;
-    		top: -21.5rem;
-    	}
-    	.right-speak {
-    		position: relative;
-    		top: 23rem;
-    		width: 90%
-    	} 	
-    }
+    
     .prof-serv {
     	.prof-atrib {
 			flex-direction: column;

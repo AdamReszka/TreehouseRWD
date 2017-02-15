@@ -591,7 +591,8 @@ body {
         letter-spacing: 0.01rem;
         margin-bottom: 1.5rem; }
     .our-awe .awesome-first .limg {
-      background-image: url("images/leftphoto-speak.png"); }
+      background-image: url("images/leftphoto-speak.png");
+      background-repeat: no-repeat; }
   .our-awe .awesome-second {
     display: flex;
     flex-direction: row;
@@ -891,6 +892,8 @@ body {
         height: 22.1rem;
         margin-left: auto;
         margin-right: auto; }
+      .our-awe .awesome-first .left-speak {
+        background-color: #f9f9f9; }
     .our-awe .awesome-second {
       flex-direction: column; }
       .our-awe .awesome-second .right-photo {
@@ -898,6 +901,8 @@ body {
         height: 22.1rem;
         margin-left: auto;
         margin-right: auto; }
+      .our-awe .awesome-second .right-speak {
+        background-color: #f9f9f9; }
 
   .prof-serv .prof-atrib {
     width: 90rem; }
@@ -932,7 +937,17 @@ body {
         .culture-val .cult-balls .c-ball .c-content .cc-title {
           font-size: 2.8rem; }
         .culture-val .cult-balls .c-ball .c-content .cc-desc {
-          font-size: 1.8rem; } }
+          font-size: 1.8rem; }
+
+  .our-awe .awesome-second {
+    align-items: center; }
+    .our-awe .awesome-second .right-photo {
+      position: relative;
+      top: -21.5rem; }
+    .our-awe .awesome-second .right-speak {
+      position: relative;
+      top: 23rem;
+      width: 90%; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav {
     height: 6rem; }
@@ -974,16 +989,6 @@ body {
     .our-awe .awesome-first .left-speak .ls-quoute {
       padding-left: 2.8rem;
       padding-right: 1rem; }
-
-  .our-awe .awesome-second {
-    align-items: center; }
-    .our-awe .awesome-second .right-photo {
-      position: relative;
-      top: -21.5rem; }
-    .our-awe .awesome-second .right-speak {
-      position: relative;
-      top: 23rem;
-      width: 90%; }
 
   .prof-serv {
     height: 100rem; }
