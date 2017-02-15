@@ -919,14 +919,20 @@ body {
   .culture-val .cult-balls {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    width: 100%; }
     .culture-val .cult-balls .c-line {
       display: none; }
     .culture-val .cult-balls .c-ball {
       width: 100%;
       display: flex; }
-      .culture-val .cult-balls .c-ball .content {
-        margin: 2.4rem auto; } }
+      .culture-val .cult-balls .c-ball .c-content {
+        width: 60%;
+        margin: 2.4rem auto; }
+        .culture-val .cult-balls .c-ball .c-content .cc-title {
+          font-size: 2.8rem; }
+        .culture-val .cult-balls .c-ball .c-content .cc-desc {
+          font-size: 1.8rem; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav {
     height: 6rem; }
@@ -963,12 +969,21 @@ body {
   .title-cds .title-button {
     margin-top: 16rem; }
 
-  .our-awe .awesome-second .right-photo {
-    position: relative;
-    top: -21.5rem; }
-  .our-awe .awesome-second .right-speak {
-    position: relative;
-    top: 23rem; }
+  .our-awe .awesome-first .left-speak {
+    width: 90%; }
+    .our-awe .awesome-first .left-speak .ls-quoute {
+      padding-left: 2.8rem;
+      padding-right: 1rem; }
+
+  .our-awe .awesome-second {
+    align-items: center; }
+    .our-awe .awesome-second .right-photo {
+      position: relative;
+      top: -21.5rem; }
+    .our-awe .awesome-second .right-speak {
+      position: relative;
+      top: 23rem;
+      width: 90%; }
 
   .prof-serv {
     height: 100rem; }

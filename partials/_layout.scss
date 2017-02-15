@@ -1006,6 +1006,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		width: 100%;
 		.c-line {
 			display: none;
 		}
@@ -1013,8 +1014,15 @@ body {
 			width: 100%;
 			display: flex;
 			// align-items: center;
-			.content {
+			.c-content {
+				width: 60%;
 				margin: 2.4rem auto;
+				.cc-title {
+					font-size: 2.8rem;
+				}
+				.cc-desc {
+					font-size: 1.8rem;
+				}
 			}
 		}
 	}
@@ -1054,7 +1062,18 @@ body {
 	.title-cds .title-button {
 		margin-top: 16rem;
 	}
+	.our-awe .awesome-first {
+		.left-speak {
+			width: 90%;
+			.ls-quoute {
+				padding-left: 2.8rem;
+				padding-right: 1rem;
+			}
+		}
+	}
     .our-awe .awesome-second {
+    	align-items: center;
+
     	.right-photo {
     		position: relative;
     		top: -21.5rem;
@@ -1062,6 +1081,7 @@ body {
     	.right-speak {
     		position: relative;
     		top: 23rem;
+    		width: 90%
     	} 	
     }
     .prof-serv {
