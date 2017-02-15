@@ -1057,7 +1057,8 @@ body {
     font-size: 4rem;
     padding-top: 3.8rem; }
 
-  .contact-data {
-    background-color: red; } }
+  .contact-data .data-frame {
+    flex-direction: column;
+    justify-content: center; } }
 
 /*# sourceMappingURL=main.css.map */
