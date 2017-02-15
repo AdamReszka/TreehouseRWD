@@ -1059,6 +1059,9 @@ body {
 
   .contact-data .data-frame {
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+
+  .d-right {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
