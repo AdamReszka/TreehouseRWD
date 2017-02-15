@@ -1062,6 +1062,14 @@ body {
     justify-content: center; }
 
   .d-right {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .enterprises {
+    padding: 1rem 0; }
+
+  .enterprises .ent-names .ent-first, .ent-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 /*# sourceMappingURL=main.css.map */
