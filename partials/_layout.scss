@@ -853,7 +853,7 @@ body {
 
 .main-footer {
 	width: 100%;
-	height: 10.1rem;
+	min-height: 10.1rem;
 	background-color: #fff;
 	@include centering;
 	position: relative;
@@ -1122,6 +1122,14 @@ body {
 			height: 80rem;
 		}
 		height: 100rem;
+	}
+	.main-footer {
+		flex-direction: column;
+		.copyrights {
+			display: block;
+			position: static;
+			margin-top: 1rem;
+		}
 	}
 }
 @media screen and (max-width: 480px){
