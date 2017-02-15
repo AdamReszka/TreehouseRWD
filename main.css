@@ -913,8 +913,20 @@ body {
   .just-relax .just-baner {
     width: 100%; }
 
-  .c-line {
-    display: none; } }
+  .culture-val {
+    height: 100rem; }
+
+  .culture-val .cult-balls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .culture-val .cult-balls .c-line {
+      display: none; }
+    .culture-val .cult-balls .c-ball {
+      width: 100%;
+      display: flex; }
+      .culture-val .cult-balls .c-ball .content {
+        margin: 2.4rem auto; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav {
     height: 6rem; }
