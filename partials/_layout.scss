@@ -739,7 +739,7 @@ body {
 	min-height: 36.4rem;
 	background-color: $footblack;
 	@include centering;
-	box-sizing: border-box;
+	// box-sizing: border-box;
 	.data-frame {
 		min-width: 30rem;
 		min-height: 30rem;
@@ -747,7 +747,7 @@ body {
 		flex-direction: row;
 		.data-col {
 			width: 30rem;
-			height: 30rem;
+			min-height: 30rem;
 			.lc-title {
 				text-transform: uppercase;
 				color: #fff;
@@ -1127,6 +1127,9 @@ body {
 			height: 80rem;
 		}
 		height: 100rem;
+	}
+	.contact-data{
+		padding-bottom: 3.2rem;
 	}
 	.main-footer {
 		flex-direction: column;

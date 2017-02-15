@@ -701,8 +701,7 @@ body {
   background-color: #222222;
   display: flex;
   align-items: center;
-  justify-content: center;
-  box-sizing: border-box; }
+  justify-content: center; }
   .contact-data .data-frame {
     min-width: 30rem;
     min-height: 30rem;
@@ -710,7 +709,7 @@ body {
     flex-direction: row; }
     .contact-data .data-frame .data-col {
       width: 30rem;
-      height: 30rem; }
+      min-height: 30rem; }
       .contact-data .data-frame .data-col .lc-title {
         text-transform: uppercase;
         color: #fff;
@@ -1016,6 +1015,9 @@ body {
           font-size: 2.8rem; }
         .prof-serv .prof-atrib .atrib-item .item-desc {
           font-size: 1.8rem; }
+
+  .contact-data {
+    padding-bottom: 3.2rem; }
 
   .main-footer {
     flex-direction: column; }
