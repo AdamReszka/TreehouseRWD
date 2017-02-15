@@ -1073,6 +1073,32 @@ body {
   .enterprises .ent-names .ent-first, .ent-second {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+
+  .our-awe .awesome-header .awesome-title {
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center; }
+
+  .our-awe .awesome-header .awesome-sub {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center; }
+
+  .our-awe .awesome-second .right-speak .rs-quoute {
+    line-height: 3rem;
+    font-size: 1.6rem; }
+
+  .our-awe .awesome-first .left-speak .ls-quoute {
+    line-height: 3rem;
+    font-size: 1.6rem; }
+
+  .our-awe .awesome-second .right-speak .rs-person {
+    line-height: 2rem;
+    font-size: 1.2rem; }
+
+  .our-awe .awesome-first .left-speak .ls-person {
+    line-height: 2rem;
+    font-size: 1.2rem; } }
 
 /*# sourceMappingURL=main.css.map */
