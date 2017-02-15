@@ -697,7 +697,7 @@ body {
 
 .contact-data {
   width: 100%;
-  height: 36.4rem;
+  min-height: 36.4rem;
   background-color: #222222;
   display: flex;
   align-items: center;
@@ -956,7 +956,10 @@ body {
     .our-awe .awesome-second .right-speak {
       position: relative;
       top: 23rem;
-      width: 90%; } }
+      width: 90%; }
+
+  .contact-data .data-frame {
+    width: 90%; } }
 @media screen and (max-width: 900px) {
   .main-container nav.main-nav {
     height: 6rem; }

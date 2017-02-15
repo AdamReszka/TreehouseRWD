@@ -736,7 +736,7 @@ body {
 }
 .contact-data {
 	width: 100%;
-	height: 36.4rem;
+	min-height: 36.4rem;
 	background-color: $footblack;
 	@include centering;
 	box-sizing: border-box;
@@ -1058,6 +1058,11 @@ body {
     		top: 23rem;
     		width: 90%
     	} 	
+    }
+    .contact-data {
+    	.data-frame {
+    		width: 90%;
+    	}
     }
 
 }
