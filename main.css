@@ -669,7 +669,7 @@ body {
 
 .enterprises {
   width: 100%;
-  height: 16.5rem;
+  min-height: 16.5rem;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -677,13 +677,19 @@ body {
   .enterprises .ent-names {
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
     .enterprises .ent-names .enta {
       margin: 0;
       padding: 0; }
+    .enterprises .ent-names .ent-first {
+      position: relative; }
   .enterprises .ent-name {
-    margin: 0 2rem; }
+    margin: 1rem 2rem; }
   .enterprises .en1 {
+    position: relative;
+    bottom: 0.8rem;
     height: 3rem; }
   .enterprises .en3 {
     position: relative;
