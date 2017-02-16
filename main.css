@@ -171,9 +171,6 @@ body {
     padding: 0;
     margin-top: 3.6rem; }
   .title-cds .title-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     color: #fff;
@@ -181,6 +178,7 @@ body {
     height: 6rem;
     margin-top: 5.8rem;
     position: relative;
+    background-color: red;
     background-image: url("images/button-baner-green.png");
     text-transform: uppercase;
     font-size: 1.4rem;
