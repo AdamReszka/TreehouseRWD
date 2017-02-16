@@ -240,8 +240,8 @@ body {
     font-weight: bold;
     margin-top: 1.2rem; }
   .prof-serv .prof-atrib {
-    width: 100rem;
-    height: 20rem;
+    width: 100%;
+    min-height: 20rem;
     background-color: #fff;
     margin-top: 8.9rem;
     padding: 0;
@@ -256,7 +256,8 @@ body {
       display: inline-flex;
       color: #000;
       font-size: 1.8rem;
-      letter-spacing: -0.07rem; }
+      letter-spacing: -0.07rem;
+      width: 90%; }
       .prof-serv .prof-atrib .atrib-item .prof-heart {
         margin-bottom: 0.5rem; }
       .prof-serv .prof-atrib .atrib-item .prof-mobile {
@@ -891,6 +892,9 @@ body {
   .just-relax .just-baner {
     width: 80%; } }
 @media screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden; }
+
   .our-awe {
     min-height: 120rem; }
     .our-awe .awesome-first {
@@ -1048,9 +1052,10 @@ body {
     font-size: 1.6rem; }
 
   .prof-serv .prof-atrib .atrib-item {
-    width: 90%;
-    .item-desc: 90%;
     flex-wrap: wrap; }
+    .prof-serv .prof-atrib .atrib-item .item-desc {
+      display: flex;
+      flex-wrap: wrap; }
 
   .latest-pro {
     align-items: center; }
@@ -1089,6 +1094,15 @@ body {
     z-index: 100;
     position: absolute;
     bottom: 11.8rem; }
+
+  .prof-serv .prof-title {
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center; }
+  .prof-serv .prof-sub-title {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center; }
 
   .just-relax .just-baner {
     padding-top: 4rem; }
