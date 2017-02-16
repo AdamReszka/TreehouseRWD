@@ -1311,3 +1311,123 @@ body {
 		font-size: 1.2rem;
 	}
 }
+@media screen and (max-width: 360px){
+	.mini-logo {
+		margin: auto 0 auto 2rem;
+	}
+	.burger-nav {
+		right: 2rem;
+	}
+	.title-cds {
+		height: 100rem;
+	}
+	
+	.title-cds .main-sub-title {
+		margin-top: 13rem;
+		font-size: 4rem;
+	}
+	.title-cds .title-button {
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	#burger-ul li {
+		height: 11.5rem;
+		font-size: 4rem;
+		padding-top: 3.8rem;
+
+	}
+	.just-relax .just-baner {
+		.jb-title {
+			width: 100%;
+			font-size: 3.2rem;
+		}
+		.jb-desc {
+			width: 90%;
+		}
+		.jb-check {
+			box-sizing: border-box;
+			.ck {
+			height: 3.2rem;
+
+		}
+	}
+	}
+	.latest-pro {
+		height: 94rem;
+	}
+	.latest-pro .pro-title .pt-header{
+			width: 100%;
+			font-size: 3.2rem;
+			text-align: center;
+	}
+	.latest-pro .pro-title .pt-desc {
+			width: 100%;
+			font-size: 1.6rem;
+			text-align: center;
+		}
+
+	.ready-to .rt-title {
+		font-size: 3.2rem;
+	}
+	.d-right {
+	margin-left: 0;
+	}
+	.culture-val {
+		min-height: 100rem;
+	}
+	.culture-val .cult-balls .c-ball {
+		margin-bottom: 1rem;
+		.c-content {
+			.cc-desc {
+			font-size: 1.6rem;
+		}
+		}
+		
+	}
+	.culture-val .cult-header {
+		.cult-title {
+			width: 100%;
+			font-size: 3.2rem;
+			text-align: center;
+		}
+		.cult-sub {
+			width: 100%;
+			font-size: 1.6rem;
+			text-align: center;
+		}
+	}
+	.enterprises {
+		padding: 1rem 0;
+	}
+	.enterprises .ent-names .ent-first, .ent-second {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.our-awe .awesome-header .awesome-title {
+		width: 100%;
+		font-size: 3.2rem;
+		text-align: center;
+	}
+	.our-awe .awesome-header .awesome-sub {
+		width: 100%;
+		font-size: 1.6rem;
+		text-align: center;
+	}
+	.our-awe .awesome-second .right-speak .rs-quoute {
+		line-height: 3rem;
+		font-size: 1.6rem;
+	}
+	.our-awe .awesome-first .left-speak .ls-quoute {
+		line-height: 3rem;
+		font-size: 1.6rem;
+	}
+	.our-awe .awesome-second .right-speak .rs-person {
+		line-height: 2rem;
+		font-size: 1.2rem;
+	}
+	.our-awe .awesome-first .left-speak .ls-person {
+		line-height: 2rem;
+		font-size: 1.2rem;
+	}
+}
