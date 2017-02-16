@@ -1142,6 +1142,11 @@ body {
 		}
 	}
 }
+@media screen and (max-width: 650px){
+	.just-relax .just-baner .jb-desc {
+		width: 90%;
+	}
+}
 @media screen and (max-width: 600px){
 	.latest-pro {
 		align-items: center;
@@ -1203,6 +1208,22 @@ body {
 		font-size: 4rem;
 		padding-top: 3.8rem;
 
+	}
+	.just-relax .just-baner {
+		.jb-title {
+			width: 100%;
+			font-size: 3.2rem;
+		}
+		.jb-desc {
+			width: 90%;
+		}
+		.jb-check {
+			box-sizing: border-box;
+			.ck {
+			height: 3.2rem;
+
+		}
+	}
 	}
 	.latest-pro {
 		height: 94rem;
