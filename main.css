@@ -452,7 +452,7 @@ body {
 
 .culture-val {
   width: 100%;
-  height: 56rem;
+  min-height: 56rem;
   background-color: #f9f9f9;
   box-sizing: border-box;
   display: flex;
@@ -875,7 +875,7 @@ body {
       margin-top: 7.4rem; }
 
   .culture-val {
-    height: 49rem; }
+    min-height: 49rem; }
     .culture-val .cult-header {
       margin: 3rem 0 0 0; }
 
@@ -926,7 +926,7 @@ body {
     width: 100%; }
 
   .culture-val {
-    height: 100rem; }
+    min-height: 100rem; }
 
   .culture-val .cult-balls {
     display: flex;
@@ -1069,6 +1069,23 @@ body {
 
   .d-right {
     margin-left: 0; }
+
+  .culture-val {
+    min-height: 100rem; }
+
+  .culture-val .cult-balls .c-ball {
+    margin-bottom: 1rem; }
+    .culture-val .cult-balls .c-ball .c-content .cc-desc {
+      font-size: 1.6rem; }
+
+  .culture-val .cult-header .cult-title {
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center; }
+  .culture-val .cult-header .cult-sub {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center; }
 
   .enterprises {
     padding: 1rem 0; }
