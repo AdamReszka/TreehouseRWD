@@ -223,7 +223,7 @@ body {
 			@include dircol;
 			flex-grow: 1;
 			min-height: 20rem;
-			display: inline-flex;
+			display: flex;
 			color: #000;
 			font-size: 1.8rem;
 			letter-spacing: -0.07rem;
@@ -1118,10 +1118,12 @@ body {
 	}
     
     .prof-serv {
+    	min-height: 100rem;
     	.prof-atrib {
     		display: flex;
 			flex-direction: column;
 			align-items: center;
+			min-height: 80rem;
 			.atrib-item {
 				width: 70vw;
 				min-height: 20rem;
@@ -1137,9 +1139,7 @@ body {
 					// flex-wrap: wrap;
 				}
 			}
-			height: 80rem;
 		}
-		height: 100rem;
 	}
 	.contact-data{
 		padding-bottom: 3.2rem;
