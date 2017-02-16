@@ -1074,7 +1074,8 @@ body {
     right: 2rem; }
 
   .title-cds {
-    height: 70rem; }
+    height: 70rem;
+    background-image: url("images/banner_mobile.png"); }
 
   .title-cds .main-sub-title {
     margin-top: 13rem;
