@@ -1025,6 +1025,13 @@ body {
       display: block;
       position: static;
       margin-top: 1rem; } }
+@media screen and (max-width: 600px) {
+  .contact-data .data-frame {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contact-data .data-frame .lc-title {
+      text-align: center; } }
 @media screen and (max-width: 480px) {
   .mini-txt {
     font-size: 3rem; }
@@ -1059,10 +1066,6 @@ body {
 
   .ready-to .rt-title {
     font-size: 3.2rem; }
-
-  .contact-data .data-frame {
-    flex-direction: column;
-    justify-content: center; }
 
   .d-right {
     margin-left: 0; }
