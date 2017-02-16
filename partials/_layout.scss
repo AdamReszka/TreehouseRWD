@@ -138,6 +138,7 @@ body {
 	}
 	.title-button {
 		@include centering;
+		@include lrauto;
 		color: #fff;
 		width: 20rem;
 		height: 6rem;
@@ -1229,8 +1230,8 @@ body {
 	}
 	
 	.title-cds .title-button {
-    	background-repeat: no-repeat;
-    	background-size: cover;
+    	// background-repeat: no-repeat;
+    	// background-size: cover;
     	margin-top: 0;
     	z-index: 100;
     	position: absolute;
