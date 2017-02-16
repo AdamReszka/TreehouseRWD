@@ -322,7 +322,7 @@ body {
 		.jb-button {
 			@include centering;
 			color: #fff;
-			margin: 5rem 0;
+			margin: 5rem 0 0 0;
 			width: 16.8rem;
 			height: 6rem;
 			text-transform: uppercase;
@@ -1218,6 +1218,7 @@ body {
 	}
 
 	.just-relax .just-baner {
+		padding-top: 4rem;
 		.jb-title {
 			width: 100%;
 			font-size: 3.2rem;

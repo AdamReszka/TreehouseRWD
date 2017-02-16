@@ -339,7 +339,7 @@ body {
       align-items: center;
       justify-content: center;
       color: #fff;
-      margin: 5rem 0;
+      margin: 5rem 0 0 0;
       width: 16.8rem;
       height: 6rem;
       text-transform: uppercase;
@@ -1090,15 +1090,17 @@ body {
     position: absolute;
     bottom: 11.8rem; }
 
-  .just-relax .just-baner .jb-title {
-    width: 100%;
-    font-size: 3.2rem; }
-  .just-relax .just-baner .jb-desc {
-    width: 90%; }
-  .just-relax .just-baner .jb-check {
-    box-sizing: border-box; }
-    .just-relax .just-baner .jb-check .ck {
-      height: 3.2rem; }
+  .just-relax .just-baner {
+    padding-top: 4rem; }
+    .just-relax .just-baner .jb-title {
+      width: 100%;
+      font-size: 3.2rem; }
+    .just-relax .just-baner .jb-desc {
+      width: 90%; }
+    .just-relax .just-baner .jb-check {
+      box-sizing: border-box; }
+      .just-relax .just-baner .jb-check .ck {
+        height: 3.2rem; }
 
   .latest-pro {
     height: 94rem; }
