@@ -143,7 +143,6 @@ body {
 		height: 6rem;
 		margin-top: 5.8rem;
 		position: relative;
-		background-color: red;
 		background-image: url("images/button-baner-green.png");
 		text-transform: uppercase;
 		font-size: 1.4rem;
@@ -1233,9 +1232,9 @@ body {
     	// background-repeat: no-repeat;
     	// background-size: cover;
     	margin-top: 0;
-    	z-index: 100;
-    	// position: absolute;
-    	bottom: 11.8rem;
+    	z-index: 110;
+    	position: relative;
+    	top: 8rem;
 	}
 	.prof-serv {
 		.prof-atrib {
