@@ -699,7 +699,7 @@ body {
 
 .contact-data {
   width: 100%;
-  min-height: 36.4rem;
+  min-height: 30.4rem;
   background-color: #222222;
   display: flex;
   align-items: center;
@@ -710,8 +710,7 @@ body {
     display: flex;
     flex-direction: row; }
     .contact-data .data-frame .data-col {
-      width: 30rem;
-      min-height: 30rem; }
+      width: 30rem; }
       .contact-data .data-frame .data-col .lc-title {
         text-transform: uppercase;
         color: #fff;
@@ -1075,8 +1074,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    .contact-data .data-frame .d-left {
+      margin: 0; }
     .contact-data .data-frame .lc-title {
-      text-align: center; } }
+      text-align: center; }
+
+  .d-right {
+    margin: 0; } }
 @media screen and (max-width: 480px) {
   .mini-logo {
     margin: auto 0 auto 2rem; }

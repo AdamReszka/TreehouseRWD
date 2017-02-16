@@ -738,7 +738,7 @@ body {
 }
 .contact-data {
 	width: 100%;
-	min-height: 36.4rem;
+	min-height: 30.4rem;
 	background-color: $footblack;
 	@include centering;
 	// box-sizing: border-box;
@@ -749,7 +749,7 @@ body {
 		flex-direction: row;
 		.data-col {
 			width: 30rem;
-			min-height: 30rem;
+			// min-height: 20rem;
 			.lc-title {
 				text-transform: uppercase;
 				color: #fff;
@@ -1199,9 +1199,15 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		.d-left {
+			margin: 0;
+		}
 		.lc-title {
 			text-align: center;
 		}
+	}
+	.d-right {
+		margin: 0;
 	}
 }
 @media screen and (max-width: 480px){
