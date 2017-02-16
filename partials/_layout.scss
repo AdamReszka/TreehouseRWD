@@ -1143,11 +1143,26 @@ body {
 	}
 }
 @media screen and (max-width: 650px){
+	.prof-serv .prof-title {
+		width: 75%;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
 	.just-relax .just-baner .jb-desc {
 		width: 90%;
 	}
 }
 @media screen and (max-width: 600px){
+	.title-cds .main-title {
+		font-size: 4rem;
+		flex-wrap: wrap;
+	}
+	.prof-serv .prof-atrib .atrib-item {
+		width: 90%;
+		.item-desc: 90%;
+		flex-wrap: wrap;
+	}
 	.latest-pro {
 		align-items: center;
 		.pt-desc {
@@ -1177,29 +1192,21 @@ body {
 	}
 }
 @media screen and (max-width: 480px){
-	.mini-txt {
-		font-size: 3rem;
+	.mini-logo {
+		margin: auto 0 auto 2rem;
 	}
-	.mini-img {
-		width: 4rem;
-		height: 4rem;
+	.burger-nav {
+		right: 2rem;
 	}
 	.title-cds {
 		height: 100rem;
 	}
-	.title-cds .main-title {
-		font-size: 8rem;
-		margin-top: 18rem;
-	}
+	
 	.title-cds .main-sub-title {
 		margin-top: 13rem;
 		font-size: 4rem;
 	}
 	.title-cds .title-button {
-		width: 40rem;
-    	height: 12rem;
-    	margin-top: 12rem;
-    	font-size: 3rem;
     	background-repeat: no-repeat;
     	background-size: cover;
 	}
