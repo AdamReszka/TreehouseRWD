@@ -109,6 +109,7 @@ body {
 .title-cds {
 	width: 100%;
 	height: 60rem;
+	position: relative;
 	@include dircol;
 	@include zero;
 		background-image: url("images/banner_paralax.png");
@@ -122,7 +123,6 @@ body {
 		text-align: center;
 		font-size: 6rem;
 		width: 70rem;
-		height: 13rem;
 		margin-top: 13.6rem;
 		letter-spacing: -0.3rem;
 		line-height: 7rem;
@@ -142,6 +142,7 @@ body {
 		width: 20rem;
 		height: 6rem;
 		margin-top: 5.8rem;
+		position: relative;
 		background-image: url("images/button-baner-green.png");
 		text-transform: uppercase;
 		font-size: 1.4rem;
@@ -1157,6 +1158,11 @@ body {
 	.title-cds .main-title {
 		font-size: 4rem;
 		flex-wrap: wrap;
+		width: 90%;
+		line-height: 6rem;
+	}
+	.title-cds .main-sub-title {
+		font-size: 1.6rem;
 	}
 	.prof-serv .prof-atrib .atrib-item {
 		width: 90%;
@@ -1199,17 +1205,16 @@ body {
 		right: 2rem;
 	}
 	.title-cds {
-		height: 70rem;
 		background-image: url('images/banner_mobile.png');
 	}
 	
-	.title-cds .main-sub-title {
-		margin-top: 13rem;
-		font-size: 4rem;
-	}
 	.title-cds .title-button {
     	background-repeat: no-repeat;
     	background-size: cover;
+    	margin-top: 0;
+    	z-index: 100;
+    	position: absolute;
+    	bottom: 11.8rem;
 	}
 
 	.just-relax .just-baner {
