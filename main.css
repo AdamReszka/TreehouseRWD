@@ -893,7 +893,8 @@ body {
   .our-awe {
     min-height: 120rem; }
     .our-awe .awesome-first {
-      flex-direction: column; }
+      flex-direction: column;
+      margin-right: 0; }
       .our-awe .awesome-first .left-photo {
         width: 22.1rem;
         height: 22.1rem;
@@ -902,7 +903,8 @@ body {
       .our-awe .awesome-first .left-speak {
         background-color: #f9f9f9; }
     .our-awe .awesome-second {
-      flex-direction: column; }
+      flex-direction: column;
+      margin-right: 0; }
       .our-awe .awesome-second .right-photo {
         width: 22.1rem;
         height: 22.1rem;
@@ -1026,6 +1028,20 @@ body {
       position: static;
       margin-top: 1rem; } }
 @media screen and (max-width: 600px) {
+  .latest-pro {
+    align-items: center; }
+    .latest-pro .pt-desc {
+      width: 90%;
+      text-align: center; }
+
+  .latest-pro .pro-desc {
+    width: 90%;
+    margin: 0; }
+    .latest-pro .pro-desc .pd-point .pd-point-desc .pd-pd-title {
+      flex-wrap: wrap; }
+    .latest-pro .pro-desc .pd-point .pd-point-desc .pd-pd-sub {
+      flex-wrap: wrap; }
+
   .contact-data .data-frame {
     flex-direction: column;
     justify-content: center;
@@ -1063,6 +1079,19 @@ body {
     height: 11.5rem;
     font-size: 4rem;
     padding-top: 3.8rem; }
+
+  .latest-pro {
+    height: 94rem; }
+
+  .latest-pro .pro-title .pt-header {
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center; }
+
+  .latest-pro .pro-title .pt-desc {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center; }
 
   .ready-to .rt-title {
     font-size: 3.2rem; }

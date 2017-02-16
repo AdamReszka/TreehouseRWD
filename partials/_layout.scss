@@ -981,6 +981,7 @@ body {
 		min-height: 120rem;
 		.awesome-first {
 		flex-direction: column;
+		margin-right: 0;
 		.left-photo {
 			width: 22.1rem;
 			height: 22.1rem;
@@ -993,6 +994,7 @@ body {
 	}
 		.awesome-second {
 			flex-direction: column;
+			margin-right: 0;
 			.right-photo {
 			width: 22.1rem;
 			height: 22.1rem;
@@ -1141,6 +1143,25 @@ body {
 	}
 }
 @media screen and (max-width: 600px){
+	.latest-pro {
+		align-items: center;
+		.pt-desc {
+			width: 90%;
+			text-align: center;
+		}
+	}
+	.latest-pro .pro-desc {
+		width: 90%;
+		margin: 0;
+			.pd-point .pd-point-desc {
+				.pd-pd-title {
+					flex-wrap: wrap;
+				}
+				.pd-pd-sub {
+					flex-wrap: wrap;
+				}
+		}
+	}
 	.contact-data .data-frame{
 		flex-direction: column;
 		justify-content: center;
@@ -1183,6 +1204,19 @@ body {
 		padding-top: 3.8rem;
 
 	}
+	.latest-pro {
+		height: 94rem;
+	}
+	.latest-pro .pro-title .pt-header{
+			width: 100%;
+			font-size: 3.2rem;
+			text-align: center;
+	}
+	.latest-pro .pro-title .pt-desc {
+			width: 100%;
+			font-size: 1.6rem;
+			text-align: center;
+		}
 
 	.ready-to .rt-title {
 		font-size: 3.2rem;
