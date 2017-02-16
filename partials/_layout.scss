@@ -222,7 +222,7 @@ body {
 		.atrib-item {
 			@include dircol;
 			flex-grow: 1;
-			height: 20rem;
+			min-height: 20rem;
 			display: inline-flex;
 			color: #000;
 			font-size: 1.8rem;
@@ -954,7 +954,7 @@ body {
 		}
 	}
 	.prof-serv {
-		height: 50rem;
+		min-height: 50rem;
 		.prof-title {
 			margin-top: 7.4rem;
 		}
@@ -1012,7 +1012,7 @@ body {
 		}
 	}
 	.prof-serv .prof-atrib {
-		width: 90rem;
+		// width: 90rem;
 	}
 	.latest-pro {
 		height: 100rem;
@@ -1119,16 +1119,22 @@ body {
     
     .prof-serv {
     	.prof-atrib {
+    		display: flex;
 			flex-direction: column;
+			align-items: center;
 			.atrib-item {
-				width: 60%;
-				height: 10rem;
+				width: 70vw;
+				min-height: 20rem;
 				@include lrauto;
+				display: flex;
 				.item-title {
 					font-size: 2.8rem;
 				}
 				.item-desc {
+					display: block;
 					font-size: 1.8rem;
+					// display: flex;
+					// flex-wrap: wrap;
 				}
 			}
 			height: 80rem;
@@ -1169,6 +1175,7 @@ body {
 		font-size: 1.6rem;
 	}
 	.prof-serv .prof-atrib .atrib-item {
+			width: 80vw;
 			flex-wrap: wrap;
 		.item-desc {
 			display: flex;
@@ -1230,6 +1237,18 @@ body {
     	bottom: 11.8rem;
 	}
 	.prof-serv {
+		.prof-atrib {
+			width: 95vw;
+			.atrib-item {
+				margin: 0 0 4rem 0;
+				.item-title {
+					font-size: 2.2rem;
+				}
+				.item-desc {
+					font-size: 1.6rem;
+				}
+			}
+		}
 		.prof-title {
 			width: 100%;
 			font-size: 3.2rem;

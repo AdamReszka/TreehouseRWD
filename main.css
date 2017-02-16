@@ -252,7 +252,7 @@ body {
       align-items: center;
       flex-direction: column;
       flex-grow: 1;
-      height: 20rem;
+      min-height: 20rem;
       display: inline-flex;
       color: #000;
       font-size: 1.8rem;
@@ -871,7 +871,7 @@ body {
       font-weight: 500; }
 
   .prof-serv {
-    height: 50rem; }
+    min-height: 50rem; }
     .prof-serv .prof-title {
       margin-top: 7.4rem; }
 
@@ -916,9 +916,6 @@ body {
         margin-right: auto; }
       .our-awe .awesome-second .right-speak {
         background-color: #f9f9f9; }
-
-  .prof-serv .prof-atrib {
-    width: 90rem; }
 
   .latest-pro {
     height: 100rem;
@@ -1010,16 +1007,20 @@ body {
   .prof-serv {
     height: 100rem; }
     .prof-serv .prof-atrib {
+      display: flex;
       flex-direction: column;
+      align-items: center;
       height: 80rem; }
       .prof-serv .prof-atrib .atrib-item {
-        width: 60%;
-        height: 10rem;
+        width: 70vw;
+        min-height: 20rem;
         margin-left: auto;
-        margin-right: auto; }
+        margin-right: auto;
+        display: flex; }
         .prof-serv .prof-atrib .atrib-item .item-title {
           font-size: 2.8rem; }
         .prof-serv .prof-atrib .atrib-item .item-desc {
+          display: block;
           font-size: 1.8rem; }
 
   .contact-data {
@@ -1051,6 +1052,7 @@ body {
     font-size: 1.6rem; }
 
   .prof-serv .prof-atrib .atrib-item {
+    width: 80vw;
     flex-wrap: wrap; }
     .prof-serv .prof-atrib .atrib-item .item-desc {
       display: flex;
@@ -1099,6 +1101,14 @@ body {
     position: absolute;
     bottom: 11.8rem; }
 
+  .prof-serv .prof-atrib {
+    width: 95vw; }
+    .prof-serv .prof-atrib .atrib-item {
+      margin: 0 0 4rem 0; }
+      .prof-serv .prof-atrib .atrib-item .item-title {
+        font-size: 2.2rem; }
+      .prof-serv .prof-atrib .atrib-item .item-desc {
+        font-size: 1.6rem; }
   .prof-serv .prof-title {
     width: 100%;
     font-size: 3.2rem;
